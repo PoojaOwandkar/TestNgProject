@@ -14,8 +14,6 @@ import ResourceofClass.Constant;
 
 public class LoginTestcase extends BaseClass {
 	
-private static final WebElement Errormsg = null;
-
 @Test
 	public void login() throws IOException {
 		

@@ -17,7 +17,8 @@ public class BaseClass {
 	
 	public void broweserlaunching() throws IOException {
 		// To Read the Properties File
-		FileInputStream file=new FileInputStream (System.getProperty("User.dir")+"\\src\\main\\java\\ResourceofClass\\data.properties");
+		String path=System.getProperty("user.dir")+"\\src\\main\\java\\ResourceofClass\\data.properties";
+		FileInputStream file=new FileInputStream(path);
 				//(System.getProperty("User.dir")+"\\src\\main\\java\\ResourceofClass\\data.properties");
 		//("C:\\Users\\SAI\\eclipse-workspace\\Testng19sep22project\\src\\main\\java\\ResourceofClass\\data.properties")
 		
